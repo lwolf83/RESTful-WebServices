@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+            <Label Height="25">Id</Label>
+            <TextBox x:Name="idUser" Height="25" Text="" TextWrapping="Wrap" Width="89" VerticalAlignment="Top" Margin="20 0 0 0"/>
+            <Button Width="100" Click="Button_Click">Get list</Button>
+        </StackPanel>
+        <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left" Orientation="Horizontal">
+            <TextBox x:Name="txtBlock" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="800" Height="350" VerticalScrollBarVisibility="Auto">
+                
+            </TextBox>
+        </StackPanel>
+    </Grid>
+</Window>
